@@ -131,7 +131,7 @@ export default function ProductForm({
         >
           {!!images?.length &&
             images.map((link) => (
-              <div key={link} className="h-24 bg-white p-4 shadow-md rounded-sm border border-gray-300">
+              <div key={link} className="h-24 bg-white p-4 shadow-md rounded-sm border border-gray-400">
                 <img src={link} alt="" className="rounded-lg"></img>
               </div>
             ))}
